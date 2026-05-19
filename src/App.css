@@ -172,6 +172,40 @@ button {
     letter-spacing: 0.04em;
 }
 
+/* About — Stats */
+.stats-list {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.stats-item {
+    border: 1px solid rgba(157, 164, 177, 0.2);
+    border-radius: 8px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: rgba(157, 164, 177, 0.04);
+}
+
+.stats-value {
+    font-family: "Audiowide", "Ubuntu", sans-serif;
+    font-size: 32px;
+    color: var(--clr-light-coral);
+    line-height: 1;
+}
+
+.stats-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--clr-light-grey);
+}
+
 /* About */
 .skills-heading {
     font-size: 14px;
@@ -291,28 +325,56 @@ button {
     color: var(--clr-dark-grey);
 }
 
-/* Experience */
-.experience-list {
+/* Experience — Timeline */
+.timeline {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    position: relative;
+    padding-left: 28px;
 }
 
-.experience-item {
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    gap: 24px;
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: rgba(157, 164, 177, 0.25);
 }
 
-.experience-period {
-    color: var(--clr-light-grey);
-    font-size: 14px;
+.timeline-item {
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--clr-dark-grey);
+    border: 2px solid var(--clr-light-coral);
+}
+
+.timeline-period {
+    display: inline-block;
+    color: var(--clr-light-coral);
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding-top: 4px;
+    letter-spacing: 0.08em;
+    border: 1px solid rgba(255, 109, 109, 0.4);
+    border-radius: 999px;
+    padding: 2px 10px;
+    margin-bottom: 8px;
 }
 
 .experience-role {
@@ -467,7 +529,25 @@ button {
     font-size: 14px;
 }
 
-/* Contacts */
+/* Contacts — CTA */
+.cta-section {
+    background: linear-gradient(
+        135deg,
+        rgba(255, 109, 109, 0.06),
+        rgba(123, 238, 203, 0.04)
+    );
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 16px;
+}
+
+.cta-lead {
+    font-size: 18px;
+    color: #fff;
+    max-width: 540px;
+    margin: 0;
+}
+
 .contacts-list {
     list-style: none;
     padding: 0;
@@ -520,9 +600,12 @@ button {
         text-align: left;
     }
 
-    .experience-item,
     .education-item {
         grid-template-columns: 1fr;
         gap: 8px;
+    }
+
+    .cta-section {
+        padding: 24px;
     }
 }

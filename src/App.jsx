@@ -50,9 +50,12 @@ function App() {
           </section>
           <Experience />
           <Projects />
-          <section id="contacts" className="section">
-            <h2 className="section-title">Contacts</h2>
-            <p>Open to new opportunities — feel free to reach out.</p>
+          <section id="contacts" className="section cta-section">
+            <h2 className="section-title">Let&apos;s work together</h2>
+            <p className="cta-lead">
+              Have a project in mind or want to collaborate? I&apos;m open to
+              new opportunities — drop a message and I&apos;ll get back to you.
+            </p>
             <ul className="contacts-list">
               <li>
                 <FontAwesomeIcon className="contact-icons" icon={faEnvelope} />

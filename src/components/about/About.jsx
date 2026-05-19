@@ -13,6 +13,12 @@ const primarySkills = [
 
 const familiarSkills = ['Node.js', 'MongoDB', 'Angular']
 
+const stats = [
+    { value: '2+', label: 'Years experience' },
+    { value: '8+', label: 'Projects shipped' },
+    { value: '3', label: 'Languages spoken' },
+]
+
 const languages = [
     { name: 'English', level: 'Fluent' },
     { name: 'Swedish', level: 'Intermediate' },
@@ -32,6 +38,15 @@ export const About = () => {
                 projects that prioritize seamless user experiences and
                 performance.
             </p>
+
+            <ul className="stats-list">
+                {stats.map((stat) => (
+                    <li key={stat.label} className="stats-item">
+                        <span className="stats-value">{stat.value}</span>
+                        <span className="stats-label">{stat.label}</span>
+                    </li>
+                ))}
+            </ul>
 
             <h3 className="skills-heading">Primary stack</h3>
             <ul className="skills-list">

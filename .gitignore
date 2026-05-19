@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Design references / mockups, not part of the app
+_design/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -1,7 +1,7 @@
-import amaAppImage from '../../assets/amaapp-home.png'
-import amaSiteImage from '../../assets/ama-home.png'
-import semantifaiImage from '../../assets/semantifai-home.png'
-import myhaccpImage from '../../assets/MyHACCP_1.png'
+import amaAppImage from '../../assets/amaapp-home.webp'
+import amaSiteImage from '../../assets/ama-home.webp'
+import semantifaiImage from '../../assets/semantifai-home.webp'
+import myhaccpImage from '../../assets/MyHACCP_1.webp'
 
 const projects = [
     {

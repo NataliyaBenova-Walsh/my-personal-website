@@ -28,24 +28,22 @@ export const Experience = () => {
     return (
         <section id="experience" className="section">
             <h2 className="section-title">Experience</h2>
-            <ul className="experience-list">
+            <ol className="timeline">
                 {roles.map((role) => (
-                    <li key={role.company} className="experience-item">
-                        <div className="experience-period">{role.period}</div>
-                        <div className="experience-body">
-                            <h3 className="experience-role">
-                                {role.title} · <span className="experience-company">{role.company}</span>
-                            </h3>
-                            <div className="experience-location">{role.location}</div>
-                            <ul className="experience-bullets">
-                                {role.bullets.map((bullet, i) => (
-                                    <li key={i}>{bullet}</li>
-                                ))}
-                            </ul>
-                        </div>
+                    <li key={role.company} className="timeline-item">
+                        <div className="timeline-period">{role.period}</div>
+                        <h3 className="experience-role">
+                            {role.title} · <span className="experience-company">{role.company}</span>
+                        </h3>
+                        <div className="experience-location">{role.location}</div>
+                        <ul className="experience-bullets">
+                            {role.bullets.map((bullet, i) => (
+                                <li key={i}>{bullet}</li>
+                            ))}
+                        </ul>
                     </li>
                 ))}
-            </ul>
+            </ol>
         </section>
     )
 }
