@@ -13,7 +13,7 @@ const roles = [
     },
     {
         company: 'Aspar Software (CraftGenie)',
-        title: 'Frontend Developer Intern',
+        title: 'Frontend Developer',
         location: 'Remote',
         period: 'Nov 2023 — Mar 2024',
         bullets: [
