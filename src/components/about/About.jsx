@@ -14,7 +14,7 @@ const primarySkills = [
 const familiarSkills = ['Node.js', 'REST APIs', 'MongoDB', 'Playwright', 'CI/CD', 'Angular']
 
 const stats = [
-    { value: '4+', label: 'Years experience' },
+    { value: '3+', label: 'Years experience' },
     { value: '5+', label: 'Projects shipped' },
     { value: '3', label: 'Languages spoken' },
 ]
