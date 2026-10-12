@@ -19,8 +19,8 @@ const education = [
   {
     school: 'University of National and World Economy',
     location: 'Sofia, Bulgaria',
-    degree: 'Bachelor in Economy',
-    period: '2003 — 2007',
+    degree: "Bachelor's Degree in Economics",
+    period: '2002 — 2007',
   },
 ]
 

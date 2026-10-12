@@ -11,7 +11,7 @@ const primarySkills = [
     'Git',
 ]
 
-const familiarSkills = ['Node.js', 'MongoDB', 'Angular']
+const familiarSkills = ['Node.js', 'REST APIs', 'MongoDB', 'Playwright', 'CI/CD', 'Angular']
 
 const stats = [
     { value: '4+', label: 'Years experience' },
@@ -21,7 +21,7 @@ const stats = [
 
 const languages = [
     { name: 'English', level: 'Fluent' },
-    { name: 'Swedish', level: 'Intermediate' },
+    { name: 'Swedish', level: 'Professional working' },
     { name: 'Bulgarian', level: 'Native' },
 ]
 

@@ -8,7 +8,7 @@ const projects = [
         title: 'AMA Coach — App',
         image: amaAppImage,
         description:
-            'Web app for an AI-powered coaching product. Leading the frontend — building the user-facing UI and a WebSocket integration that powers realtime AI conversations.',
+            'AI-powered learning platform serving 4,000+ users. Took primary responsibility for the frontend architecture and technical decisions, implemented realtime AI chat over WebSockets, and built tailored interfaces for students, teachers, parents, affiliates, and administrators.',
         tech: ['React', 'TypeScript', 'Tailwind', 'shadcn/ui', 'WebSocket'],
         links: [{ label: 'Live app →', url: 'https://app.amacoach.ai/' }],
     },

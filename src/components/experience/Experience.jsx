@@ -15,7 +15,7 @@ const roles = [
         company: 'Aspar Software (CraftGenie)',
         title: 'Frontend Developer',
         location: 'Remote',
-        period: 'Nov 2023 — Mar 2024',
+        period: 'Oct 2023 — Mar 2024',
         bullets: [
             'Developed prototype applications for clients using AI-powered solutions.',
             'Worked on a tool that rapidly generates client prototypes, leveraging AI to expedite development cycles.',
