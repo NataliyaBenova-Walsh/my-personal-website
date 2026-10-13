@@ -4,7 +4,7 @@
 
 My portfolio site as a frontend developer: who I am, what I've built, and how to reach me.
 
-**[Visit the live site →](https://my-personal-website-omega-seven.vercel.app/)**
+**[Visit the live site →](https://nataliya-walsh.vercel.app/)**
 
 [![Website preview](public/og-image.jpg)](https://my-personal-website-omega-seven.vercel.app/)
 
